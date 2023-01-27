@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
 }
@@ -48,7 +48,7 @@ header{
 }
 /* Creé esta clase y se la agregué a los a porque no me tomaba el
 background azul y si el verde de la clase active */
-.desactive{
+/* .desactive{
     background-color: #4472C4;
 }
 
@@ -71,4 +71,4 @@ background azul y si el verde de la clase active */
     color: #000000;
     position:absolute;
     top: 0px;
-}
+}  */
