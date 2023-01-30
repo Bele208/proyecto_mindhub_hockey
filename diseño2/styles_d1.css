@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+header{
+    
+    height: 320px;
+    background-image: url(../img/design1_image1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header>h1{
+    color: #ffffff;
+    text-shadow: 2px 2px black;
+
+}
+
+.menu a{
+    
+    color: blue;
+    padding: 20px;
+    display: block;
+}
+
+.menu{
+    position:absolute;
+    top: 400px;
+}
+
+.active{
+    text-decoration: none;
+}
+
+#active{
+    color: black;
+}
+
+.section>h2{
+    margin-top: 2px;
+    padding: 4px;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid black;
+    background-color: black;
+}
+
+.logo_mdhl{
+    height: 150px;
+    background-color: #ffffff;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 1px;
+    position: absolute;
+    right: 60px;
+    top: 280px;
+}
+
+.contenedor_texto{
+    width: 600px;
+    margin-top: 50px;
+    position: absolute;
+    left: 250px; 
+}
+
+.contenedor_texto h2, h3, h4{
+    padding-top: 20px;  
+ }
+
+#imagen_hockey{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 60px;
+    bottom: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 1px;
+}
