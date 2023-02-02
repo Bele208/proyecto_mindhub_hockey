@@ -4,16 +4,19 @@
 }
 
 body{
+    background-color: #b0c4fa;
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 } 
 
 header{
-    margin-top: 60px;
-    height: 300px;
+    height: 310px;
     background-image: url(../img/design1_image2.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section>h2{
@@ -39,7 +42,7 @@ header{
    
 }
 
-.contenedor_texto a{
+.contenedor_texto>a{
     text-decoration: none;
 }
 
@@ -48,12 +51,12 @@ header{
 }
 
 .active{
-    background-color: #70AD47;
+    background-color: #fec601;
 }
 /* Creé esta clase y se la agregué a los a porque no me tomaba el
 background azul y si el verde de la clase active */
 .desactive{
-    background-color: #4472C4;
+    background-color: #000000;
 }
 
 .menu a{
@@ -67,14 +70,54 @@ background azul y si el verde de la clase active */
 
 .menu{
     position:absolute;
-    top: 50px;
+    top: 280px;
     right: 15px;
 }
 
 .title{
-    font-style: italic;
-    height: 30px;
+    font-size: 50px;
     color: #000000;
-    position:absolute;
-    top: 0px;
+    text-shadow: 4px 3px 2px  #e5e6e7;
+}
+
+/* //////////////////////////// */
+/* //////////TASK 3 ////////////*/
+/* //////////////////////////// */
+
+.contenedor_info{
+    margin-top: 20px;
+    padding: 30px;
+    width: 750px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.caja_principal{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.listas{
+    margin-left: 40px;
+    line-height: 25px;  
+}
+
+#contenedor_info{
+    padding: 30px;
+}
+#contenedor_info h3{
+    padding: 5px;
+    
+}
+#contenedor_info p{
+    line-height: 25px;
 }
