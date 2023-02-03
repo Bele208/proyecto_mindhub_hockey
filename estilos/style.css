@@ -33,14 +33,18 @@ header{
     padding: 4px;
 }
 
+.section article{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
 .article img{
-    display: block;
-    height: 140px;
-    margin: 20px 80px 20px 30px;
+    height: 200px;
+    margin: 40px;
 }
 
-.article div{
-    display: inline-block;
+#contenedor_texto{
+ width: 65%;
 }
 
 .contenedor_texto {
@@ -59,12 +63,12 @@ header{
 .active{
     background-color: #fae494;
 }
+
 /* Creé esta clase y se la agregué a los a porque no me tomaba el
 background azul y si el verde de la clase active */
 .desactive{
     background-color: #000000;
 }
-
 
 nav>a:hover{
     background-color: #fae494;
@@ -76,6 +80,7 @@ nav{
     background-color: #000000;
 
 }
+
 nav>a{ 
     padding: 8px 8px;
     border-radius: 4px;
@@ -90,14 +95,14 @@ nav>a{
 .logo_mdhl{
     height: 120px;
     position: absolute;
-    left: 10px;
+    left: 5px;
     top: 0px;
 }
 
 
-/* //////////////////////////// */
-/* //////////TASK 3 ////////////*/
-/* //////////////////////////// */
+
+/* /////////////////////////TASK 3 //////////////////////////*/
+
 
 .contenedor_info{
     margin-top: 20px;
@@ -121,15 +126,15 @@ nav>a{
     align-items: center; 
 }
 
-
-
 #contenedor_info{
+    width: 80%;
     padding: 30px;
 }
+
 #contenedor_info h3{
     padding: 5px;
-    
 }
+
 #contenedor_info p{
     line-height: 25px;
 }
