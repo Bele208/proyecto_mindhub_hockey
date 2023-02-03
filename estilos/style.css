@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #cae7e1;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+} 
+
+header{
+    height: 40vh;
+    background-image: url(../img/design1_image2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.title{
+    font-size: 60px;
+    color: #000000;
+    text-shadow: 4px 3px 2px  #e5e6e7;
+}
+
+
+.section>h2{
+    margin-top: 0;
+    text-align: center;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.section article{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.article img{
+    height: 200px;
+    margin: 40px;
+}
+
+#contenedor_texto{
+ width: 65%;
+}
+
+.contenedor_texto {
+    margin-top:30px;
+   
+}
+
+.contenedor_texto>a{
+    text-decoration: none;
+}
+
+.contenedor_texto h2, h3, h4{
+   padding-top: 20px;  
+}
+
+.active{
+    background-color: #fae494;
+}
+
+/* Creé esta clase y se la agregué a los a porque no me tomaba el
+background azul y si el verde de la clase active */
+.desactive{
+    background-color: #000000;
+}
+
+nav>a:hover{
+    background-color: #fae494;
+}
+
+nav{
+    text-align: center;
+    padding: 10px 10px;
+    background-color: #000000;
+
+}
+
+nav>a{ 
+    padding: 8px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline;
+    flex-direction:column;
+    align-items: center;
+}
+
+.logo_mdhl{
+    height: 120px;
+    position: absolute;
+    left: 5px;
+    top: 0px;
+}
+
+
+
+/* /////////////////////////TASK 3 //////////////////////////*/
+
+
+.contenedor_info{
+    margin-top: 20px;
+    padding: 30px;
+    width: 750px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.caja_principal{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+#contenedor_info{
+    width: 80%;
+    padding: 30px;
+}
+
+#contenedor_info h3{
+    padding: 5px;
+}
+
+#contenedor_info p{
+    line-height: 25px;
+}
+
+/* ///////////////TABLAS Y LISTAS////////////////////////// */
+table{
+    background-color: #000000;
+}
+
+tr, th, td{
+    background-color: #fae494;
+    padding: 10px 35px;
+    text-align: center;
+}
+
+ul, ol, dt{
+    padding: 10px 35px;
+}
+
+caption{
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+main{
+    margin-bottom: 20px;
+}
+
+#estilo_span span{
+    font-weight: bold;
+}
+
+#estilo_span{
+    margin: 50px 100px;
+    line-height: 25px; 
+}
+
+.listas{
+    line-height: 25px;  
+}
+
+/*///////////////FOOTER////////////////////////// */
+.footer{
+    color: white;
+    height: 50px;
+    background-color: #000000;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
