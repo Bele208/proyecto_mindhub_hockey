@@ -5,36 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/logo_hockey.png">
-    <link rel="stylesheet" href="../estilos/style.css">
+    <link rel="stylesheet" href="./estilos/style.css">
     <title>Mighty Ducks Hockey League</title>
 </head>
 <body>
-    <header class="header">
-        <h1 class="title">Mighty Ducks Hockey League</h1>
+        <header class="header">
+            <h1 class="title">Mighty Ducks Hockey League</h1>
+            <img src="./img/Logo_prueba.png" alt="Logo" class="logo_mdhl">
+
+        </header>
         <nav class="menu">
             <a href="#" class="active">Home</a>
-            <a href="./about.html" class="desactive">About MDHL</a>
+            <a href="./about.html" class="desactive">About us</a>
+            <a href="./game_info.html" class="desactive">Information</a>
+            <a href="./rules.html" class="desactive">Rules</a>
             <a href="./contact.html" class="desactive">Contact</a>
         </nav>
-    </header>
+    
     <main>
         <section class="section">
             <h2>Upcoming Events</h2>
             <article class="article">
-                <div class="contenedor_img">
-                    <img src="./img/Logo_Mighty_ducks-01.png" alt="Logo" width="150">
-                    <img src="./img/hockey_1.jpg" alt="hockey imagen 1">
-                </div> 
                 <div class="contenedor_texto">
                     <h3>August 4</h3>
                     <p>MDSL Fundraiser</p>
                     <h3>August 16</h3>
                     <p>Season Kick-off: Meet the Teams</p>
                     <h3>September 1</h3>
-                    <p>First Game of the Season (Check Game Schedule for details)</p>
-                </div>
+                    <p>First Game of the Season (Check <a href="./game_info.html">Game Schedule</a> for details)</p>
+                </div>                
+                <figure>
+                    <img src="./img/hockey_1.jpg" alt="Hockey imagen 1" class="contenedor_img">
+                </figure>
             </article>
         </section>
-    </main>     
+    </main>
+    <footer class="footer">
+        <p>Todos los derechos reservados - Belén Nobili 2023</p>
+    </footer>
 </body>
 </html>
