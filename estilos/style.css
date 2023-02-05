@@ -186,3 +186,23 @@ main{
     justify-content:center;
     align-items: center;
 }
+
+td>a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid black;
+    color: red;
+}
+
+/* ///////////////////////////MAPAS//////////////////////////////// */
+.mapas{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.mapas iframe{
+    
+    padding: 10px
+}
