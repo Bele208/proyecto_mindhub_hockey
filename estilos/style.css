@@ -9,7 +9,7 @@ body{
 } 
 
 header{
-    height: 40vh;
+    height: 45vh;
     background-image: url(../img/design1_image2.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -203,6 +203,25 @@ td>a{
 }
 
 .mapas iframe{
-    
     padding: 10px
+}
+
+.mapas div{
+    box-shadow: 0px 0px 10px 0px;
+    border: 1px solid #a9eadd;
+    text-align: center;
+    background-color:#a9eadd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#boton_volver{
+    text-align: center;
+    text-decoration: none;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 25px;
+   position: relative;
+    bottom: 0px;
 }
