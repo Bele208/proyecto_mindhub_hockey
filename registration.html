@@ -25,6 +25,90 @@
         <section class="section">
             <h2>Registration form</h2>
         </section>
+
+        <div>
+        <form action="./show_data.html" method="GET" class="form">
+            <fieldset>
+                <legend>Personal date</legend>
+                <label for="name">Player's first name</label>
+                <input type="text" name="name" id="name">
+
+                <label for="last-name">Last name</label>
+                <input type="text" name="last-name" id="last-name">
+                
+                <label for="address">Street address:</label>
+                <input type="text" name="address" id="address">
+
+                <label for="city">City:</label>
+                <input type="text" name="city" id="city">
+
+                <label for="code">Zip code:</label>
+                <input type="text" name="code" id="code">
+
+                <label for="date">Birth date:</label>
+                <input type="date" name="date" id="date">
+
+                <p>Gender:</p>
+                <label>
+                    <input type="radio" name="gender" value="male">
+                    <span>Male</span>
+                </label>
+
+                <label>
+                    <input type="radio" name="gender" value="female">
+                    <span>Female</span>
+                </label>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>School information</legend>
+                <h4>Grade:</h4>
+
+                <input type="radio" name="grade" id="pre-school">
+                <label for="pre-school">Pre School</label>
+
+                <input type="radio" name="grade" id="1st" value="1st">
+                <label for="1st">1st</label>
+
+                <input type="radio" name="grade" id="2nd" value="2nd">
+                <label for="2nd">2nd</label>
+
+                <input type="radio" name="grade" id="3rd" value="3rd">
+                <label for="3rd">3rd</label>
+
+                <input type="radio" name="grade" id="4th" value="4th">
+                <label for="4th">4th</label>
+
+                <input type="radio" name="grade" id="5th" value="5th">
+                <label for="5th">5th</label>
+
+            <h4>Which elementary school do you live near?</h4> 
+            <p>Closest school:</p>
+
+                <input type="radio" name="school" id="school1" value="katzenmaier">
+                <span>AJ Katzenmaier</span>
+                
+                <input type="radio" name="school" id="school2" value="greenbay">
+                <span>Greenbay</span>
+
+                <input type="radio" name="school" id="school3" value="howard">
+                <span>Howard A Yeager</span>
+
+                <input type="radio" name="school" id="school4" value="marjorie">
+                <span>Marjorie P. Hart</span>
+
+                <input type="radio" name="school" id="school5" value="north">
+                <span>North Elementary</span>
+
+                <input type="radio" name="school" id="school6" value="south">
+                <span>South Elementary</span>
+
+            </fieldset>
+            <input type="submit" value="Enviar">    
+            
+        </form>
+        </div>
     </main>
     <footer class="footer">
         <p>Todos los derechos reservados - Belén Nobili 2023</p>
