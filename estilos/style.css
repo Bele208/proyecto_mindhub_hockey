@@ -160,10 +160,6 @@ caption{
     font-size: 18px;
 }
 
-/* main{
-    margin-bottom: 20px;
-} */
-
 #estilo_span span{
     font-weight: bold;
 }
@@ -176,7 +172,6 @@ caption{
 .listas{
     line-height: 25px;  
 }
-
 
 td>a{
     padding: 2px;
@@ -410,6 +405,61 @@ margin-top: 5px;
     .caja_principal{
         padding-top: 10px;
     }
+    #contenedor_info{
+        font-size: 12px;
+        line-height: 110%; 
+    }
+    #contenedor_info h3{
+        font-size: 13px; 
+    }
+    .titulo_contenedor h3{
+        font-size: 13px;
+        margin-left: 10px;
+    }
+    label {
+        margin-right: 18px;
+        height: 16px;
+        padding: 3px;
+        display: flex;
+        align-content: center;
+        flex-wrap: nowrap;
+        align-items: baseline;
+    }
+    .form span {
+        font-size: 13px;
+        margin-right: 4px;
+    }
+    
+    input[type="text" i]{
+        width: 80px;
+        height: 15px;
+    }
+    .form{
+        font-size: 12px;
+        width: 85%;
+    }
+    input[type="date" i]{
+        height: 15px;
+    }
+    form h4{
+        margin-top: 4px;
+        }
+    .main-form>div {
+        margin-left: 4%;
+    }
+    fieldset h4, p {
+        margin-bottom: 4px;
+    }
+    .form legend {
+        font-size: 14px;
+    }
 
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .logo_mdhl{
+        height: 90px;
+    }
 
 }
