@@ -147,7 +147,7 @@ table{
 tr, th, td{
     background-color: #fae494;
     padding: 10px 35px;
-    text-align: center;
+    text-align: left;
 }
 
 ul, ol, dt{
@@ -160,9 +160,9 @@ caption{
     font-size: 18px;
 }
 
-main{
+/* main{
     margin-bottom: 20px;
-}
+} */
 
 #estilo_span span{
     font-weight: bold;
@@ -177,6 +177,11 @@ main{
     line-height: 25px;  
 }
 
+
+td>a{
+    padding: 2px;
+    color: red;
+}
 /*///////////////FOOTER////////////////////////// */
 .footer{
     color: white;
@@ -185,14 +190,6 @@ main{
     display: flex;
     justify-content:center;
     align-items: center;
-}
-
-td>a{
-    text-decoration: none;
-    border-radius: 5px;
-    padding: 2px;
-    border: 1px solid black;
-    color: red;
 }
 
 /* ///////////////////////////MAPAS//////////////////////////////// */
@@ -215,13 +212,204 @@ td>a{
     margin-bottom: 20px;
 }
 
-#boton_volver{
-    text-align: center;
-    text-decoration: none;
-    padding: 6px;
-    border: 1px solid black;
+.footer-show{
+    margin-top: 70px;
+}
+/* ///////////////////// FORMULARIO DE REGISTRO////////////////////// */
+.form{
+    margin: 4%;
+    padding: 10px;
+    border: 2px solid #57a797;
+    border-radius: 10px;
+    width: 55%;
+    
+
+}
+.main-form>div{
+margin-left: 20%;
+}
+fieldset{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #57a797;
+    border-radius: 10px;
+}
+
+.form legend{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+label{
+    padding: 5px;
+    display: flex;
+}
+
+#submit{
+    margin-right: 0px;
+    color: #ffffff;
     border-radius: 4px;
-    height: 25px;
-   position: relative;
-    bottom: 0px;
+    padding: 6px 10px;
+    background-color: #57a797;
+    text-transform: uppercase;
+}
+
+main>div{
+    margin-left: 2px;
+}
+
+#submit:hover{
+    color: #000000;
+    background-color: #fae494;
+    cursor: pointer;
+   
+}
+
+#div-grade{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+#elementary{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+#uniform{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+#position{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+
+#genders{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;    
+}
+
+label{
+    margin-right: 15px;
+}
+
+fieldset h4, p{
+    margin-bottom:5px;
+}
+
+#position>div{
+    margin-right: 30px;
+}
+
+#permission label{
+margin-top: 10px;
+}
+
+form h4{
+margin-top: 5px;
+}
+
+#name-last-name{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#city-code{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;  
+}
+
+
+/* ///////////////////////MEDIA QUERIES /////////////////*/
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    header{
+        width: 110%;
+        height:150px;
+    }
+    .title{
+        margin-left: 10px;
+        text-align: left;
+        font-size: 1.5rem;
+    }
+    .logo_mdhl{
+        height: 60px;
+        position: relative;
+        left: -38px;
+        top: -40px;
+    }
+    nav>a{
+        font-size: 0.5rem;
+        border-radius: 2px;
+        padding: 2px 2px;
+    }
+    .section>h2{
+        font-size: 0.8rem;
+    }
+    .contenedor_texto>h2{
+        padding-top: 0px;
+    }
+    .contenedor_texto p{
+        margin-top: 3px;
+        margin-bottom: 10px;
+    }
+    .article{
+        margin-top: 0px;
+        font-size: 10px;
+        margin: 3px 10px;
+    }
+    .article img{
+        height: 150px;
+    }
+    footer{
+        font-size: 10px;
+    }
+    table{
+        font-size: 12px;
+    }
+    tr, th, td{
+        padding: 3% 3%;
+    }
+    td{
+        margin: 15px;
+    }
+    th{
+        font-size: 12px;
+    }
+    #date-table{
+        width: 50px;
+    }
+    caption{
+        font-size: 12px;
+    }
+    #estilo_span{
+        font-size: 12px;
+        margin: 20px;
+        line-height: 110%; 
+    }
+    .mapas div{
+        width: 220px;
+        height: 220px;
+    }
+    .mapas iframe{
+        width: 200px;
+        height: 200px;
+    }
+    .mapas p{
+        font-size: 12px;
+    }
+    .caja_principal{
+        padding-top: 10px;
+    }
+
+
 }
